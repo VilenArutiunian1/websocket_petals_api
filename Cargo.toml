@@ -1,0 +1,11 @@
+[package]
+name = "websocket_petals_api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio-tungstenite = "*"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.29.1", features = ["full"] }
+futures-util = "0.3.28"
